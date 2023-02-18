@@ -8,6 +8,7 @@ int main(void)
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 /**
- *Returns: will allways be a zero
+ *Return: will allways be a zero
+ *return: 0 to be valid
 */
 }
