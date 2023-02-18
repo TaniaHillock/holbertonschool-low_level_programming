@@ -1,6 +1,10 @@
 #include<stdio.h>
 /**
- *main function prints an returns always zero
+ *
+ *main is a function
+ *it prints a sentence
+ *Returns: will always be a zero
+ *
 */
 int main(void)
 {
