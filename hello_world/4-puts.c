@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  *main - is described as a function
- *it prints a sentence
+ *
  *return - this wil always return 0
 */
 int main(void)
