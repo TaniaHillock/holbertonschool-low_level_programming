@@ -1,10 +1,8 @@
 #include<stdio.h>
 /**
- *
- *main is a function
+ *main - is described as a function
  *it prints a sentence
  *Returns: will always be a zero
- *
 */
 int main(void)
 {
