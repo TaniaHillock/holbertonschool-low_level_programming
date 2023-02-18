@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
- *main - is described as a function
+ * main - Entry point
  *
- *return - this wil always return 0
-*/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
