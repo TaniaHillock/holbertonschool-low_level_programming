@@ -5,6 +5,7 @@
 * followed by a new line.
 * Return: (0) to success
 */
+
 int main(void)
 {
 int i;
