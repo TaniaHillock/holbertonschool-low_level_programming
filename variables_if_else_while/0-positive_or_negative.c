@@ -1,7 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - assigns a random number.*/
+
+/**
+ * function main - assigns a random number
+ * @n: variable tested
+ * Return: (0) to success
+*/
 int main(void)
 {
 	int n;
