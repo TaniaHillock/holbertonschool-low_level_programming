@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* 
- * main : assigns a random number 
- * to n each time it is executed
- *
+/* *
+ * main - assigns a random number
+ * 
  * return - (O) to success
 */
 
