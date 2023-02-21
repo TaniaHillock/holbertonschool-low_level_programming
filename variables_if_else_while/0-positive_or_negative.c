@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * function main - assigns a random number
- * @n: variable tested
+ * main - assigns a random number
  * Return: (0) to success
 */
 int main(void)
