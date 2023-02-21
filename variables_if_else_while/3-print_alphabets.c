@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-char l_u_alphabet[52]="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char l_u_alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i;
 for (i = 0; i < 52; i++)
 {
