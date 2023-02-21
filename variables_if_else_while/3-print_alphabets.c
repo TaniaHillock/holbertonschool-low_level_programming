@@ -7,12 +7,12 @@
 */
 int main(void)
 {
-  char lower_upper_alphabet[52]="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  int i;
-  for (i = 0; i < 52; i++)
-    {
-      putchar(lower_upper_alphabet[i]);
-    }
-  putchar('\n');
-  return(0);
+char l_u_alphabet[52]="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
+for (i = 0; i < 52; i++)
+{
+putchar(l_u_alphabet[i]);
+}
+putchar('\n');
+return (0);
 }
