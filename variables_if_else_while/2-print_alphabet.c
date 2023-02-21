@@ -9,10 +9,10 @@ int main(void)
 char lower_case_alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 
- for (i = 0; i < 26; i++)
-   {
-   putchar(lower_case_alphabet[i]);
-   }
+for (i = 0; i < 26; i++)
+{
+putchar(lower_case_alphabet[i]);
+}
 putchar('\n');
 return (0);
 }
