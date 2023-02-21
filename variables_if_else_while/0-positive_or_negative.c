@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* *
- * main - assigns a random number
+/*
+ * main - assigns a random number.
  * 
- * return - (O) to success
+ * return - (O) to success.
 */
-
 int main(void)
 {
 	int n;
