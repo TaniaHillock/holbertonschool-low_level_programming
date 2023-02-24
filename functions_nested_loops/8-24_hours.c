@@ -18,6 +18,7 @@ int a, b, c, d;
 		   break;
 		 _putchar(a);
 		 _putchar(b);
+		 _putchar(58);
 		 _putchar(c);
 		 _putchar(d);
 		 _putchar('\n');
