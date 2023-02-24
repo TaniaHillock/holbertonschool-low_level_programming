@@ -10,7 +10,7 @@ int b;
 
 for (a = 0; a <= 9; a++)
 {
-or (b = 97; b <= 122; b++)
+for (b = 97; b <= 122; b++)
 {
 _putchar(b);
 }
