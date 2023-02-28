@@ -10,7 +10,7 @@ unsigned int l = 0, size = 0, oi = 0, pn = 1, m = 1, i;
 
 while (*(s + l) != '\0')
 {
-if (size > 0 && (*(s + l) < '0' || *(s + l) > '9')) 
+if (size > 0 && (*(s + l) < '0' || *(s + l) > '9'))
 break;
 
 if (*(s + l) == '-')
