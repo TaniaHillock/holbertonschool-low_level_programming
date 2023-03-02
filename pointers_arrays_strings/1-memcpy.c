@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_memcpy - copies bytes from a memory area 
+*_memcpy - copies bytes from a memory area
 *@dest: destination area to copy the bytes
 *@src: the memory area copied
 *@n: bytes from memory area.
@@ -11,6 +11,6 @@ char *_memcpy(char *dest, char *scr, unsigned int n)
 {
 unsigned int i;
 for (i = 0; i < n; i++)
-*(dest + i ) = *(scr + i);
+*(dest + i) = *(scr + i);
 return (dest);
 }
