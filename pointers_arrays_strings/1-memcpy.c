@@ -2,7 +2,7 @@
 /**
 * _memcpy - copies bytes from a memory area.
 * @dest: destination area to copy the bytes.
-* @src: memory area copied.
+* @src : src is the memory area copied.
 * @n: bytes from memory area.
 * Return: a pointer to dest.
 */
