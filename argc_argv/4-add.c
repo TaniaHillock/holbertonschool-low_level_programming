@@ -15,29 +15,27 @@ int main(int argc,char *argv[])
 int i, j;
 int result;
 if (argc == 0)
-{
-printf("0\n");
-return (1);
-}
- if (argc != 0)
-{
-for(i = 1; i < argc; i++)
-{
-if (!isdigit(argv[i]))
-{
-printf("Error\n");
-}
- return (1);
- }
-}
+  {
+    printf("0\n");
+    return (1);
+  }
+if (argc != 0)
+  {
+    for(i = 1; i < argc; i++)
+      {
+	if (!isdigit(argv[i]))
+	  printf("Error\n");
+	return (1);
+      }
+  }
 else
-{
-for (j = 1; j < argc; j++)
-{
-result += atoi(argv[j]);
+  {
+    for (j = 1; j < argc; j++)
+      {
+      result += atoi(argv[j]);
+      }
+    printf("%d\n", result);
+    return (0);
+  }
 }
-printf("%d\n", result);
-return (0);
-}
-}
-}
+
