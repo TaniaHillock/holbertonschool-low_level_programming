@@ -19,11 +19,11 @@ if (argc == 0)
 printf("0\n");
 return (1);
 }
-if
+ if (argc != 0)
 {
 for(i = 1; i < argc; i++)
 {
-if (!isdigit(argv[i]));
+if (!isdigit(argv[i]))
 {
 printf("Error\n");
 }
