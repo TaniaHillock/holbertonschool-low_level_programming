@@ -10,32 +10,22 @@
 * @argv: the array with the strings of arguments.
 * Return: 0 for success. 1 for Error.
 */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
-int i, j;
-int result;
-if (argc == 0)
-  {
-    printf("0\n");
-    return (1);
-  }
-if (argc != 0)
-  {
-    for(i = 1; i < argc; i++)
-      {
-	if (!isdigit(argv[i]))
-	  printf("Error\n");
-	return (1);
-      }
-  }
-else
-  {
-    for (j = 1; j < argc; j++)
-      {
-      result += atoi(argv[j]);
-      }
-    printf("%d\n", result);
-   }
- return (0);
-}
+	int i, j, add = 0;
 
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		add += atoi(argv[i]);
+	}
+	printf("%d\n", add);
+	return (0);
+}
