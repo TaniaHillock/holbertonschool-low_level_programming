@@ -19,16 +19,16 @@ if (argc == 0)
 printf("0\n");
 return (1);
 }
-else
+elseif
 {
 for(i = 1; i < argc; i++)
 {
-if (!isdigit(argv[i]);
+if (!isdigit(argv[i]));
 {
 printf("Error\n");
-return (1);
 }
-}
+ return (1);
+ }
 }
 else
 {
