@@ -19,7 +19,7 @@ if (argc == 0)
 printf("0\n");
 return (1);
 }
-elseif
+if
 {
 for(i = 1; i < argc; i++)
 {
