@@ -1,3 +1,5 @@
+Learning Objectives
+
 Programs created to reach the Learning Objectives of:
 Usage of arguments passed to your program.
 Learn about two prototypes of main, and in which case do you use one or the other.
