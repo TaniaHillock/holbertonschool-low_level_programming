@@ -27,12 +27,12 @@ for (ls1 = 0; s1[ls1] != '\0'; ls1++) /*Count how long is s1 and save in ls1*/
 for (ls2 = 0; s2[ls2] != '\0'; ls2++)
 ;
 
-if (n >= ls2) /* If n is greater or equal to the length of s2 then use the entire string s2*/
+if (n >= ls2) /*If n is greater or equal to s2 then use the entire s2*/
 n = ls2;
 
 lsout = ls1 + n; /*The lenght of the string coming out*/
 
-sout = malloc(lsout + 1); /*Reserving the memory adding a space for null character*/
+sout = malloc(lsout + 1); /*Reserve memory, add a space for null*/
 
 if (sout == NULL) /*If the function fails allocating the memory returns NULL*/
 return (NULL);
