@@ -25,7 +25,6 @@ int (*get_op_func(char *s))(int, int)
 			break;
 		i++;
 	}
-	
-	/*if s does not match any of the 5 expected operators, return NULL*/
+/*if s does not match any of the 5 expected operators, return NULL*/
 	return (ops[i / 2].f);
 }
