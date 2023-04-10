@@ -69,11 +69,4 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 	return (0);
-/**
- * gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-cp.c -o cp
- * cat incitatous
- * ./cp incitatous Incitatous
- * -l Incitatous
- * cat Incitatous
- */
 }
